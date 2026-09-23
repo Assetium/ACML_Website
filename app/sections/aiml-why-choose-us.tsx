@@ -1,9 +1,9 @@
 const reasons = [
   {
     number: "01",
-    title: "Real Assets. Real Returns.",
+    title: "SEC Licensed & Regulated.",
     description:
-      "Your money is not sitting in abstract instruments. Every portfolio we manage is backed by physical commodities — real, traceable assets that produce real commercial outcomes.",
+      "Assetium Investment Managers Limited is licensed by the Securities and Exchange Commission of Nigeria as a Fund and Portfolio Manager. Your investment is managed within a regulated framework.",
     icon: (
       <svg
         viewBox="0 0 24 24"
@@ -14,16 +14,74 @@ const reasons = [
         strokeLinecap="round"
         strokeLinejoin="round"
       >
-        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" />
-        <path d="M12 6v6l4 2" />
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
       </svg>
     ),
   },
   {
     number: "02",
-    title: "Managed by Professionals.",
+    title: "Independently Rated.",
     description:
-      "You don't have to be a market expert. Our team of investment managers monitors, adjusts, and optimises your portfolio — so you can stay focused on your life.",
+      "Assetium is rated by Augusto & Co. and Datapro, giving clients independent assurance about the strength and credibility of the business they are trusting with their investments.",
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        className="w-6 h-6"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-2.9-5.6 2.9 1.1-6.2L3 9.6l6.2-.9L12 3z" />
+      </svg>
+    ),
+  },
+  {
+    number: "03",
+    title: "Strong Governance Structure.",
+    description:
+      "Our corporate governance framework supports transparency, accountability, clear oversight, and disciplined decision-making across every investment mandate.",
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        className="w-6 h-6"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <rect x="3" y="3" width="18" height="18" rx="2" />
+        <path d="M8 8h8M8 12h8M8 16h5" />
+      </svg>
+    ),
+  },
+  {
+    number: "04",
+    title: "Real Assets. Real Value.",
+    description:
+      "Our investment approach includes real, traceable assets such as commodities alongside other carefully selected asset classes, helping connect investment decisions to tangible economic activity.",
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        className="w-6 h-6"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path d="M3 20h18" />
+        <path d="m5 16 4-5 3 3 5-7 2 3" />
+      </svg>
+    ),
+  },
+  {
+    number: "05",
+    title: "Funds Managed by Professionals.",
+    description:
+      "Our professionals apply research, risk-adjusted modelling, due diligence, and disciplined asset allocation to manage portfolios in line with each client's objectives.",
     icon: (
       <svg
         viewBox="0 0 24 24"
@@ -42,68 +100,10 @@ const reasons = [
     ),
   },
   {
-    number: "03",
-    title: "Accessible Entry Point.",
-    description:
-      "With a minimum investment of ₦50,000, AIM opens the door to professional investment management for everyday Nigerians — not just the ultra-wealthy.",
-    icon: (
-      <svg
-        viewBox="0 0 24 24"
-        fill="none"
-        className="w-6 h-6"
-        stroke="currentColor"
-        strokeWidth="1.6"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <line x1="12" y1="1" x2="12" y2="23" />
-        <path d="M17 5H9.5a3.5 3.5 0 1 0 0 7h5a3.5 3.5 0 1 1 0 7H6" />
-      </svg>
-    ),
-  },
-  {
-    number: "04",
-    title: "Flexible to Your Goals.",
-    description:
-      "Whether you're investing for 90 days or 5 years, for yourself or your child, for growth or for Halal compliance — we have a portfolio that fits your exact situation.",
-    icon: (
-      <svg
-        viewBox="0 0 24 24"
-        fill="none"
-        className="w-6 h-6"
-        stroke="currentColor"
-        strokeWidth="1.6"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
-      </svg>
-    ),
-  },
-  {
-    number: "05",
-    title: "SEC Licensed & Regulated.",
-    description:
-      "We operate under the full oversight of the Securities and Exchange Commission of Nigeria. Your investment is not a promise — it is a regulated financial product.",
-    icon: (
-      <svg
-        viewBox="0 0 24 24"
-        fill="none"
-        className="w-6 h-6"
-        stroke="currentColor"
-        strokeWidth="1.6"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-      </svg>
-    ),
-  },
-  {
     number: "06",
     title: "Ethical Options Included.",
     description:
-      "Our Halal Investment Portfolio gives Muslim investors a fully Shariah-compliant path to growing wealth — without compromising on returns or principles.",
+      "Our Ethical Portfolio gives investors access to responsible and ESG-aligned strategies designed to support long-term financial objectives.",
     icon: (
       <svg
         viewBox="0 0 24 24"
@@ -120,23 +120,15 @@ const reasons = [
   },
 ];
 
-const stats = [
-  { value: "3", label: "Investment Portfolios" },
-  { value: "₦50K", label: "Minimum Entry" },
-  { value: "SEC", label: "Licensed & Regulated" },
-  { value: "100%", label: "Commodity-Backed" },
-];
-
 export default function AIMWhyUs() {
   return (
-    <section className="relative bg-[#111110] py-24 px-4 md:px-8 overflow-hidden">
-      {/* Background grain */}
+    <section className="relative bg-[#f8f7f3] py-24 px-4 md:px-8 overflow-hidden">
+      {/* Subtle background lines */}
       <div
-        className="absolute inset-0 opacity-[0.035] pointer-events-none"
+        className="absolute inset-0 opacity-60 pointer-events-none"
         style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E")`,
-          backgroundRepeat: "repeat",
-          backgroundSize: "128px 128px",
+          backgroundImage:
+            "repeating-linear-gradient(-45deg, transparent, transparent 31px, rgba(26, 25, 25, 0.045) 32px, transparent 33px)",
         }}
       />
 
@@ -153,33 +145,16 @@ export default function AIMWhyUs() {
                 Why Choose Us
               </span>
             </div>
-            <h2 className="text-title-xl font-bold text-white leading-tight">
+            <h2 className="text-title-xl font-bold text-[#1a1919] leading-tight">
               Why <span className="text-brand">Assetium</span>
               <br />
               Investment Managers?
             </h2>
           </div>
-          <p className="text-[.8rem] leading-relaxed text-white/45 max-w-sm md:text-right">
-            In a market full of promises, we back everything with real assets,
-            professional management, and full regulatory oversight.
+          <p className="text-[.8rem] leading-relaxed text-[#1a1919]/55 max-w-sm md:text-right">
+            These are strong, structured investment models that help build
+            sustainable wealth.
           </p>
-        </div>
-
-        {/* Stats strip */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-white/[0.06] rounded-2xl overflow-hidden border border-white/[0.06] mb-14">
-          {stats.map((s, i) => (
-            <div
-              key={i}
-              className="flex flex-col gap-1.5 px-6 py-5 bg-[#111110]"
-            >
-              <span className="text-[2.4rem] font-black text-white leading-none tracking-tight">
-                {s.value}
-              </span>
-              <span className="text-[10px] font-bold text-white/30 uppercase tracking-[0.2em]">
-                {s.label}
-              </span>
-            </div>
-          ))}
         </div>
 
         {/* Reasons grid */}
@@ -187,10 +162,10 @@ export default function AIMWhyUs() {
           {reasons.map((r, i) => (
             <div
               key={i}
-              className="group relative bg-white/[0.03] border border-white/[0.07] rounded-2xl p-7 flex flex-col gap-5 hover:bg-white/[0.06] hover:border-brand/25 transition-all duration-300 overflow-hidden"
+              className="group relative bg-white/70 border border-black/[0.08] rounded-2xl p-7 flex flex-col gap-5 hover:bg-white hover:border-brand/25 transition-all duration-300 overflow-hidden"
             >
               {/* Ghost number */}
-              <span className="absolute -bottom-3 -right-2 text-[5rem] font-black text-white/[0.03] leading-none select-none pointer-events-none">
+              <span className="absolute -bottom-3 -right-2 text-[5rem] font-black text-[#1a1919]/[0.04] leading-none select-none pointer-events-none">
                 {r.number}
               </span>
 
@@ -201,10 +176,10 @@ export default function AIMWhyUs() {
 
               {/* Content */}
               <div className="flex flex-col gap-2">
-                <h3 className="text-[15px] font-bold text-white leading-snug group-hover:text-brand transition-colors duration-300">
+                <h3 className="text-[15px] font-bold text-[#1a1919] leading-snug group-hover:text-brand transition-colors duration-300">
                   {r.title}
                 </h3>
-                <p className="text-[.8rem] leading-relaxed text-white/45">
+                <p className="text-[.8rem] leading-relaxed text-[#1a1919]/55">
                   {r.description}
                 </p>
               </div>

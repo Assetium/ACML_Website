@@ -171,9 +171,6 @@ export default function ACMLHero() {
                       {item.type}
                     </span>
                   </div>
-                  <span className="text-[9px] font-bold text-amber-400 bg-amber-400/10 border border-amber-400/20 px-1.5 py-0.5 rounded-full ml-1 uppercase tracking-wide">
-                    Soon
-                  </span>
                 </div>
               ))}
             </div>
